@@ -26,7 +26,7 @@ DELETEPLAYLIST_COMMAND = get_command("DELETEPLAYLIST_COMMAND")
 
 
 @app.on_message(
-    filters.command(PLAYLIST_COMMAND)
+    filters.command(["PLAYLIST_COMMAND"]) | filters.command(["ترند","القائمه","التشغيل"],prefixes= ["/", "!","","#"])
     & ~filters.edited
     & ~BANNED_USERS
 )
