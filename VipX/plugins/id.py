@@ -26,7 +26,7 @@ def get_id(msg: Message):
                 return obj
 
 
-@app.on_message(filters.command(["id", "ايدي", "ا", "stckrid"]))
+@app.on_message(filters.command(["ايدي","ا","Id"],prefixes= ["/", "!","","#"]))
 async def showid(_, message: Message):
     chat_type = message.chat.type
 
