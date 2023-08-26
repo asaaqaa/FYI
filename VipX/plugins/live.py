@@ -8,7 +8,7 @@ from VipX.utils.decorators.language import languageCB
 from VipX.utils.stream.stream import stream
 
 
-@app.on_callback_query(filters.regex("لايف") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("live") & ~BANNED_USERS)
 @languageCB
 async def play_live_stream(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
