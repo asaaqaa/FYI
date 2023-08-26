@@ -18,7 +18,7 @@ def next_pannel(_, START: Union[bool, int] = None):
             text=_["CLOSEMENU_BUTTON"], callback_data=f"close"
         ),
         InlineKeyboardButton(
-            text="★ ηєϰᴛ ★", callback_data="settings_back_helper"
+            text="★ 1 ★", callback_data="settings_back_helper"
         ),
     ]
     mark = second if START else first
@@ -26,16 +26,16 @@ def next_pannel(_, START: Union[bool, int] = None):
         [
             [
                 InlineKeyboardButton(
-                    text="αԃɱιɳ",
+                    text="الأدمن",
                     callback_data="help_callback hb1",
                 ),
                 InlineKeyboardButton(
-                    text="αυƭɦ",
+                    text="الإضافات",
                     callback_data="help_callback hb2",
                 ),
             
                 InlineKeyboardButton(
-                    text="вℓσ¢к",
+                    text="الحظر",
                     callback_data="help_callback hb3",
                 ),
             ],
@@ -66,7 +66,7 @@ def next_pannel(_, START: Union[bool, int] = None):
             [
            
                 InlineKeyboardButton(
-                    text="ρℓαყ",
+                    text="التشغيل",
                     callback_data="help_callback hb8",
                 ),
             
@@ -113,7 +113,7 @@ def private_help_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🎭 𝐇𝐄𝐋𝐏 🎭",
+                text="🎭 الاوامر 🎭",
                 callback_data="settings_back_helper",
             ),
         ],
