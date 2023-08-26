@@ -58,7 +58,7 @@ RELOAD_COMMAND = get_command("RELOAD_COMMAND")
 RESTART_COMMAND = get_command("RESTART_COMMAND")
 
 @app.on_message(
-    filters.command(["RELOAD_COMMAND"]) | filters.command(["ري","ريلود","الادمنه"],prefixes= ["/", "!","","#"])
+    filters.command(["RELOAD_COMMAND"]) | filters.command(["ريلود"],prefixes= ["/", "!",""])
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
