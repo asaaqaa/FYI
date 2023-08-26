@@ -13,17 +13,17 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="•─╼⃝𖠁𝐀𝙳𝙳 ◈ 𝐌𝙴 ◈ 𝐁𝙰𝙱𝚈𖠁⃝╾─•",
+                text="•─╼⃝𖠁مجموعتگ◈الى◈أضفني 𖠁⃝╾─•",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="🦋𝐅𝐄𝐀𝐓𝐔𝐑𝐄🦋",
+                text="🦋المميزات🦋",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="⚙️𝐒𝐄𝐓𝐓𝐈𝐍𝐆⚙️", callback_data="settings_helper"
+                text="⚙️اعدادات⚙️", callback_data="settings_helper"
             ),
         ],
      ]
@@ -38,23 +38,23 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="•─╼⃝𖠁𝐀𝙳𝙳 ◈ 𝐌𝙴 ◈ 𝐁𝙰𝙱𝚈𖠁⃝╾─•",
+                text="•─╼⃝𖠁مجموعتگ◈الى◈أضفني 𖠁⃝╾─•",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         
         ],
         [
             InlineKeyboardButton(
-                text="۞ 𝐀𝙻𝙻 𝐅𝙴𝙰𝚃𝚄𝚁𝙴𝚂 ۞", callback_data="settings_back_helper"
+                text="۞ أوامر التشغيل ۞", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text="𝐔𝙿𝙳𝙰𝚃𝙴𝚂🥀", url=f"https://t.me/{CHANNEL_USERNAME}",
+                text="قناة السورس�", url=f"https://t.me/{CHANNEL_USERNAME}",
             ),
         
             InlineKeyboardButton(
-                text="𝐆𝚁𝙾𝚄𝙿✨", url=f"https://t.me/{GROUP_USERNAME}",
+                text="جروب الدعم✨", url=f"https://t.me/{GROUP_USERNAME}",
             ),
         ],
      ]
