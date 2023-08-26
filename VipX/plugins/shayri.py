@@ -19,7 +19,7 @@ SHAYRI = [ " 🌺**‏أستغفر الله العظيم واتوب اليه �
 SHAYRI_COMMAND = get_command("SHAYRI_COMMAND")
 
 @app.on_message(
-    filters.command(["SHAYRI_COMMAND"]) | filters.command(["اليسع","مطور","سورس"],prefixes= ["/", "!","","#"])
+    filters.command(["SHAYRI_COMMAND"]) | filters.command(["اليسع","مطور","سورس"],prefixes= ["/",""])
     & filters.group
     & ~filters.edited & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
