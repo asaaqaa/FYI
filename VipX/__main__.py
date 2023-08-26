@@ -52,10 +52,10 @@ async def init():
     await userbot.start()
     await Vip.start()
     await Vip.decorators()
-    LOGGER("VipX").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️ هيبة الأمبراطـــور اليسع ترعبكم ♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("VipX").info("╔═════ஜ۩۞۩ஜ════╗\n  🇾🇪♨️ هيبة الأمبراطـــور اليسع ترعبكم ♨️🇾🇪 \n╚═════ஜ۩۞۩ஜ════╝")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("VipX").info("😢 𝐒𝐨𝐫𝐫𝐲 𝐒𝐭𝐨𝐩𝐩𝐢𝐧𝐠 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭 ☹️")
+    LOGGER("VipX").info("😢 أسف تم توقف بوت الميوزك الخاص بك ☹️")
