@@ -6,7 +6,7 @@ from VipX import app
 from VipX.misc import SUDOERS
 
 # Commands
-SPEEDTEST_COMMAND = get_command(["SPEEDTEST_COMMAND"]) | get_command(["سرعه","السرعه","اختبار"],prefixes= ["/", "!","","#"])
+SPEEDTEST_COMMAND = get_command("SPEEDTEST_COMMAND")
 
 def testspeed(m):
     try:
