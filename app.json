@@ -80,7 +80,9 @@
         "value": "",
         "required": true
       }
-    },
+     },
+    "addons": ["heroku-redis", "herokuconnect:demo"], 
+  
     "buildpacks": [
           {
               "url": "heroku/python"
